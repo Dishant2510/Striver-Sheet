@@ -22,7 +22,7 @@ public class MaxMinArrFreq {
         }
         //for (int i = 0; i < n; i++) {
         //   map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
-       // }
+        //}
         int maxFre=0,maxEle=0,minFre=n,minEle=0;
         for(HashMap.Entry<Integer,Integer> entry:hp.entrySet())
         {
